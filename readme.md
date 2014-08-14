@@ -1,7 +1,7 @@
 # Draugiem.lv API Client
 
 ### Simple usage sample:
-```
+```js
 var APP_KEY = '';
 var DR_AUTH_CODE = queryParams.dr_auth_code; // http://my-url.com/?dr_auth_code=123
 
@@ -29,7 +29,7 @@ if (draugiem) {
 ---
 
 ### Advanced usage sample:
-```
+```js
 var APP_KEY = '';
 var DR_AUTH_CODE = queryParams.dr_auth_code; // http://my-url.com/?dr_auth_code=123
 
@@ -72,7 +72,7 @@ if (draugiem === false) {
 ```
 
 ### Table structure:
-```
+```sql
 CREATE TABLE IF NOT EXISTS `sessions` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `dr_auth_code` varchar(20) NOT NULL,
