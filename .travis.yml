@@ -1,6 +1,8 @@
 language: node_js
 deploy:
-  api_key:
-    secure: StJo7OYQwVAeqUG92zRulRADbXaEnxLfElR2+sVMDZrvdfxRQBf1z/6pyzxniyq3BiRn3zNsivvQ/YdiphtedPDTw9gnXkMsJM8717NeB4+PK0XWVl/W+iFuWjc7Mr6HKzmH2qQNTRXNkEhaLuGYUEgsvmDZvZnaChPFc592QPQ=
-  email: npmjs.org@mja.lv
   provider: npm
+  email: nmpjs.org@mja.lv
+  api_key:
+    secure: Cu+g6EP1l6nE+EJ5SzSOLV9ZPcwQh+8DL6lfjyqsi3bTP9tXLC43mfqv5K69uwlP95HCGD64jRRyi7E+c2K5DNP/Wtoo0VBGOuulEFv2JnZpd5IlYaMxFXfjmFxHVRG/J2P+VBYPJ3oVbZXkHZxgIcxneoZl66vhkqnY3nTwK78=
+  on:
+    repo: MatissJA/Draugiem.lv-NodeJS
