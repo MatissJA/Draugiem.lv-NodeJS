@@ -1,5 +1,5 @@
 {
-  "name": "Draugiem.lv-NodeJS",
+  "name": "draugiemapi",
   "version": "1.0.0",
   "description": "NodeJS client for the Draugiem.lv aplication API",
   "main": "lib/draugiemapi.js",

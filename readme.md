@@ -46,6 +46,9 @@ if (draugiem === false) {
 	// This reduces the calls to draugiem.lv servers
 	db.getBySessionHash(SESSION_HASH, function Success(user) {
 
+		// Set the user key so that we could do DB calls from now on..
+		draugiem.userKey = data.apikey;
+
 		// User object or UID can be returned here
 		currentUser = user;
 
