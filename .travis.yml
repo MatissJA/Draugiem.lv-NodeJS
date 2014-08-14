@@ -1,0 +1,6 @@
+language: node_js
+deploy:
+  api_key:
+    secure: StJo7OYQwVAeqUG92zRulRADbXaEnxLfElR2+sVMDZrvdfxRQBf1z/6pyzxniyq3BiRn3zNsivvQ/YdiphtedPDTw9gnXkMsJM8717NeB4+PK0XWVl/W+iFuWjc7Mr6HKzmH2qQNTRXNkEhaLuGYUEgsvmDZvZnaChPFc592QPQ=
+  email: npmjs.org@mja.lv
+  provider: npm
