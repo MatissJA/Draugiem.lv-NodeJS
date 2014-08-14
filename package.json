@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/MatissJA/Draugiem.lv-NodeJS.git"
   },
+  "scripts": {
+    "test": "echo 1"
+  },
   "keywords": [
     "draugiem.lv",
     "draugiem",
